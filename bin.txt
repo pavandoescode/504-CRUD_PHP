@@ -1,0 +1,112 @@
+a{
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+#newBtn{
+    color: white;
+    text-decoration: none;
+}
+#homeBtn{
+    color: white;
+    text-decoration: none;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+#editBtn{
+    color: white;
+    text-decoration: none;
+}
+#delBtn{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+
+
+}
+.title{
+    text-align: center;
+  margin-top: 4%;
+  margin-bottom: 0%;
+    font-family: "Lucida Console";
+}
+
+.itemcard {
+
+    font-weight: 500;
+
+
+}
+
+.addNewForm {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 370px;
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 8px 8px 5px -2px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 8px 8px 5px -2px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 8px 8px 5px -2px rgba(0, 0, 0, 0.41);
+
+}
+
+input {
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+
+
+}
+.title{
+    text-align: center;
+  margin-top: 4%;
+  margin-bottom: 0%;
+    font-family: "Lucida Console";
+}
+
+.itemcard {
+
+    font-weight: 500;
+
+
+}
+
+.addNewForm {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 370px;
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 8px 8px 5px -2px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 8px 8px 5px -2px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 8px 8px 5px -2px rgba(0, 0, 0, 0.41);
+
+}
+
+input {
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}

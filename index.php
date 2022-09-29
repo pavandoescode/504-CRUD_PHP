@@ -11,7 +11,10 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 <head>
 	<link rel="stylesheet" href="style/style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	
 	<title>CRUD in php</title>
+	<link rel="icon" type="image/x-icon" href="style/favicon.ico">
 </head>
 
 <body>
@@ -25,10 +28,10 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 	<table class="table table-striped table-hover" >
 
 		<tr>
-			<td scope="col" >Name</td>
-			<td scope="col" >Age</td>
-			<td scope="col" >Email</td>
-			<td scope="col" >Update</td>
+			<td scope="col" class="table-primary">Name</td>
+			<td scope="col" class="table-primary">Age</td>
+			<td scope="col" class="table-primary">Email</td>
+			<td scope="col" class="table-primary">Update</td>
 		</tr>
 		<?php
 		
@@ -37,12 +40,12 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 			<td> <?php echo $res['name'] ?> </td>
 			<td> <?php echo $res['age'] ?>  </td>
 			<td> <?php echo $res['email'] ?> </td>
-			<td><a <?php echo "id='editBtn' class='bg-warning' href=\"edit.php?id=$res[id]\">Edit</a> | <a class='bg-danger' id='delBtn' href=\"delete.php?id=$res[id]\" >Delete</a></td>";
+			<td><a <?php echo "id='editBtn' class='btn btn-warning' href=\"edit.php?id=$res[id]\">Edit</a> | <a class='btn btn-danger' id='delBtn' href=\"delete.php?id=$res[id]\" >Delete</a></td>";
 		}
 		?>
 	</table>
 
-	<a id="newBtn" class="bg-success" href="add.php">Add New Data</a><br /></div>
+	<a id="newBtn" class="btn btn-success" href="add.php">Add New Data</a><br /></div>
 </body>
 
 </html>
